@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Card-Game {
+  margin-top: 50px;
+}
+
+.Card-draw-btn, .Card-shuffle-btn {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+  /* margin-right: 25px; */
+}
+
+.Card-draw-btn {
+  background-color: #2468e6;
+  margin-bottom: 30px;
+}
+
+.Card-draw-btn:hover {
+  background-color: #1955c6;
+}
+
+.Card-shuffle-btn {
+  background-color: #e15f41;
+  margin-top: 30px;
+}
+
+.Card-shuffle-btn:hover {
+  background-color: #b54228;
+}
+
+.card-name {
+  font-weight: ;
+}
+
+.card-image {
+  width: 411px;
+  height: 561px;
+}
